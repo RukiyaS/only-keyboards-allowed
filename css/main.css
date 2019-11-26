@@ -12,6 +12,10 @@ html {
   color: #222;
 }
 
+a:focus {
+  outline: 3px solid #ff0000;
+}
+
 .section-bg {
   background-size: cover;
 }
@@ -61,6 +65,15 @@ html {
 
 .masthead a:hover {
   background-color: rgba(180, 220, 255, .3);
+}
+
+.skip-links a {
+  position: absolute;
+  top: -2em;
+}
+
+.skip-links a:focus {
+  top: 0;
 }
 
 .techniques {
